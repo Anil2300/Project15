@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/background"
+    tools:context=".SocialActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:fontFamily="@font/caprasimo"
+          android:gravity="center"
+          android:textColor="#C51162"
+
+          android:text="Registration Form"
+          android:textSize="25dp" />
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter Your Name"
+          android:gravity="center"
+          android:background="@drawable/google_background"
+          android:padding="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+          android:inputType="text"
+          android:drawableLeft="@drawable/baseline_person_24"
+          android:textColorHint="@color/black"/>
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter Your Fathers Name"
+          android:gravity="center"
+          android:background="@drawable/google_background"
+          android:padding="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:inputType="text"
+          android:drawableLeft="@drawable/baseline_person_24"
+          android:textColorHint="@color/black"/>
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter Your Mothers Name"
+          android:gravity="center"
+          android:background="@drawable/google_background"
+          android:padding="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:inputType="text"
+          android:drawableLeft="@drawable/baseline_person_24"
+          android:textColorHint="@color/black"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter Your Date of Birth"
+          android:gravity="center"
+          android:background="@drawable/google_background"
+          android:padding="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:inputType="date"
+          android:drawableLeft="@drawable/baseline_calendar_month_24"
+          android:textColorHint="@color/black"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter Your Mobile No"
+          android:gravity="center"
+          android:background="@drawable/google_background"
+          android:padding="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:inputType="text"
+          android:drawableLeft="@drawable/baseline_local_phone_24"
+          android:textColorHint="@color/black"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter Your Email"
+          android:gravity="center"
+          android:background="@drawable/google_background"
+          android:padding="10dp"
+
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:inputType="textEmailAddress"
+          android:drawableLeft="@drawable/baseline_email_24"
+          android:textColorHint="@color/black"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter Your Password"
+          android:gravity="center"
+          android:background="@drawable/google_background"
+          android:padding="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:inputType="textVisiblePassword"
+          android:drawableLeft="@drawable/baseline_key_24"
+          android:textColorHint="@color/black"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:fontFamily="@font/caprasimo"
+          android:gravity="center"
+          android:textColor="#6200EA"
+          android:padding="10dp"
+          android:layout_marginStart="10dp"
+          android:layout_marginEnd="10dp"
+        android:background="@drawable/google_background"
+          android:text="Register"
+          android:textSize="25dp" />
+
+      <CalendarView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+  </LinearLayout>
+
+
+</RelativeLayout>

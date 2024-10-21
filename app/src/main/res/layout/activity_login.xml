@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/diplomata"
+      android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textColor="#2962FF"
+        android:textSize="30sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/aleo"
+
+            android:text="USER NAME"
+            android:textSize="20dp" />
+
+     <com.google.android.material.textfield.TextInputLayout
+         android:layout_width="match_parent"
+         android:layout_margin="10dp"
+         android:layout_height="wrap_content">
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:background="#00BFA5"
+             android:textStyle="bold"
+             android:textColorHint="@color/black"
+             android:drawableLeft="@drawable/baseline_person_24"
+             android:hint="Enter Your user name"/>
+     </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00BFA5"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/baseline_key_24"
+                android:hint="Enter your Password"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="18sp"
+            android:id="@+id/login"
+            android:padding="15sp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google"
+            android:textColor="#D50000"
+            android:background="@drawable/google_background"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+       android:layout_marginVertical="20dp"
+       android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/twitter"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/facebook"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/linkedin"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ins"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

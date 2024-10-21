@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/home1"/>
+
+    <item android:title="Contact"
+        android:icon="@drawable/baseline_local_phone_24"
+        android:id="@+id/contact1"/>
+
+    <item android:title="Account"
+        android:icon="@drawable/baseline_account_box_24"
+        android:id="@+id/account1"/>
+
+    <item android:title="Profile"
+        android:icon="@drawable/baseline_person_24"
+        android:id="@+id/profile1"/>
+
+    <item android:title="Primary"
+        android:icon="@drawable/baseline_stay_primary_portrait_24"/>
+
+    <item android:title="Promotions"
+        android:icon="@drawable/baseline_person_24"/>
+
+    <item android:title="Socil"
+        android:id="@+id/social"
+        android:icon="@drawable/baseline_person_24"/>
+    <item android:title="Updates"
+        android:icon="@drawable/baseline_update_24"/>
+
+    <item android:title="Starred"
+        android:icon="@drawable/baseline_star_border_24"/>
+
+    <item android:title="Snoozed"
+        android:icon="@drawable/baseline_snooze_24"/>
+
+    <item android:title="Important"
+        android:icon="@drawable/baseline_important_devices_24"/>
+
+    <item android:title="Sent"
+        android:icon="@drawable/baseline_send_24"/>
+</menu>
